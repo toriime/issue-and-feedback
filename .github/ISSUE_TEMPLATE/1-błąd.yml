@@ -1,0 +1,67 @@
+name: 🐛 Zgłoś błąd
+description: Coś nie działa zgodnie z oczekiwaniami.
+title: "[Bug]: "
+labels: ["🐛 Typ: Błąd"]
+assignees:
+  - malezjaa
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękujemy za zgłoszenie błędu! Aby pomóc nam w rozwiązaniu problemu, prosimy o wypełnienie poniższego formularza.
+  - type: checkboxes
+    attributes:
+      label: "Czy istnieje już dla tego usprawnienia zgłoszenie?"
+      description: "Wyszukaj [tutaj](../issues?q=is%3Aissue) czy nie istnieje już zgłoszenie dla tego usprawnienia."
+      options:
+        - label: "Przeszukałem istniejące zgłoszenia"
+          required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: "Co się stało?"
+      description: Opisz błąd, który napotkałeś.
+      placeholder: Powiedz nam co się stało...
+    validations:
+      required: true
+
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: "Oczekiwane zachowanie"
+      description: "Jasny i zwięzły opis tego, co ma się wydarzyć"
+
+  - type: textarea
+    attributes:
+      label: "Kroki do odtworzenia błędu"
+      description: |
+        Jak możemy odtworzyć ten błąd?
+      placeholder: |
+        1. `wejdź na stronę...`
+        2. `kliknij na...`
+
+  - type: dropdown
+    id: operating-systems
+    attributes:
+      label: Na jakim systemie operacyjnym występuje ten błąd?
+      multiple: false
+      options:
+        - Linux
+        - Windows
+        - Mac
+        - Inny
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: W jakiej przeglądarce występuje ten błąd?
+      multiple: false
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Inna

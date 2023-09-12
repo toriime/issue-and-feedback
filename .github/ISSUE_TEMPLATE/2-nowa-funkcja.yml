@@ -1,0 +1,54 @@
+name: 🚀 Nowa funkcja
+description: Zaproponuj nową funkcję.
+title: "[Nowa Funkcja]: "
+labels: ["🚀 Typ: Funkcja"]
+assignees:
+  - malezjaa
+body:
+  - type: checkboxes
+    attributes:
+      label: "Czy istnieje już dla tego usprawnienia zgłoszenie?"
+      description: "Wyszukaj [tutaj](../issues?q=is%3Aissue) czy nie istnieje już zgłoszenie dla tego usprawnienia."
+      options:
+        - label: "Przeszukałem istniejące zgłoszenia"
+          required: true
+  - type: textarea
+    id: related-to-issue
+    attributes:
+      label: Czy jest to powiązane z innym zgłoszeniem?
+      description: Czy to usprawnienie jest powiązane z innym zgłoszeniem? Jeśli tak, to opisz.
+      value: "..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Opisz nową funkcję
+      description: Opisz nową funkcję, którą chciałbyś zobaczyć.
+      value: "..."
+    validations:
+      required: true
+  - type: textarea
+    id: describe-the-solution
+    attributes:
+      label: Opisz rozwiązanie, które chciałbyś zobaczyć
+      description: Dokładnie opisz rozwiązanie, które chciałbyś zobaczyć.
+      value: "..."
+    validations:
+      required: true
+  - type: textarea
+    id: describe-alternatives
+    attributes:
+      label: Opisz alternatywne rozwiązania
+      description: Opisz alternatywne rozwiązania, które rozważałeś.
+      value: "..."
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Dodatkowe informacje
+      description: Dodaj jakiekolwiek dodatkowe informacje na temat usprawnienia.
+      value: "..."
+    validations:
+      required: true

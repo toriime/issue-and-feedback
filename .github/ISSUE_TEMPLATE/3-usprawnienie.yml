@@ -1,0 +1,38 @@
+name: ⭐ Usprawnienie
+description: Sugestia usprawnienia istniejącej funkcji.
+title: "[Usprawnienie]: "
+labels: ["⭐ Typ: Usprawnienie"]
+assignees:
+  - malezjaa
+body:
+  - type: checkboxes
+    attributes:
+      label: "Czy istnieje już dla tego usprawnienia zgłoszenie?"
+      description: "Wyszukaj [tutaj](../issues?q=is%3Aissue) czy nie istnieje już zgłoszenie dla tego usprawnienia."
+      options:
+        - label: "Przeszukałem istniejące zgłoszenia"
+          required: true
+  - type: textarea
+    id: related-to-issue
+    attributes:
+      label: Czy jest to powiązane z innym zgłoszeniem?
+      description: Czy to usprawnienie jest powiązane z innym zgłoszeniem? Jeśli tak, to opisz.
+      value: "..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Opisz usprawnienie
+      description: Opisz usprawnienie, które chciałbyś zobaczyć.
+      value: "..."
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Dodatkowe informacje
+      description: Dodaj jakiekolwiek dodatkowe informacje na temat usprawnienia.
+      value: "..."
+    validations:
+      required: true
