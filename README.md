@@ -1,4 +1,4 @@
-### 👋 Cześć!
+## 👋 Cześć!
 
 W tym repozytorium możesz zgłosić błąd, propozycję zmiany lub nową funkcję do strony [https://www.toriime.pl](https://www.toriime.pl).
 
