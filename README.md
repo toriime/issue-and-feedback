@@ -7,10 +7,10 @@ W tym repozytorium możesz zgłosić błąd, propozycję zmiany lub nową funkcj
 
 ### 📝 Jak zgłosić błąd?
 
-**1.** Kliknij w zakładkę `Issues` na górze strony.
-**2.** Kliknij zielony przycisk `New issue`.
-**3.** Wybierz opcję `🐛 Zgłoś błąd`
-**4.** Wypełnij formularz i kliknij zielony przycisk `Submit new issue`.
+1. Kliknij w zakładkę `Issues` na górze strony
+2. Kliknij zielony przycisk `New issue`
+3. Wybierz opcję `🐛 Zgłoś błąd`
+4. Wypełnij formularz i kliknij zielony przycisk `Submit new issue`
 
 ### 📞 Kontakt
 
