@@ -1,57 +1,56 @@
-repozytorium:
-etykiety:
-  - nazwa: "🐛 Typ: Błąd"
-    kolor: e80c0c
-    opis: Coś nie działa zgodnie z oczekiwaniami.
+labels:
+  - name: "🐛 Typ: Błąd"
+    color: e80c0c
+    description: Coś nie działa zgodnie z oczekiwaniami.
 
-  - nazwa: "⭐ Typ: Usprawnienie"
-    kolor: 54b2ff
-    opis: Sugestia usprawnienia istniejącej funkcji.
+  - name: "⭐ Typ: Usprawnienie"
+    color: 54b2ff
+    description: Sugestia usprawnienia istniejącej funkcji.
 
-  - nazwa: "🚀 Typ: Funkcja"
-    kolor: 54b2ff
-    opis: Sugestia nowej funkcji.
+  - name: "🚀 Typ: Funkcja"
+    color: 54b2ff
+    description: Sugestia nowej funkcji.
 
-  - nazwa: "📂 Typ: Bezpieczeństwo"
-    kolor: fbff00
-    opis: Problem lub usprawnienie związane z kwestią bezpieczeństwa.
+  - name: "📂 Typ: Bezpieczeństwo"
+    color: fbff00
+    description: Problem lub usprawnienie związane z kwestią bezpieczeństwa.
 
-  - nazwa: "💫 Status: Oczekuje na przegląd"
-    kolor: 24d15d
-    opis: Zgłoszenie oczekuje na przegląd.
+  - name: "💫 Status: Oczekuje na przegląd"
+    color: 24d15d
+    description: Zgłoszenie oczekuje na przegląd.
 
-  - nazwa: "📜 Status: W trakcie pracy"
-    kolor: 07b340
-    opis: Obecnie pracujemy nad tym.
+  - name: "📜 Status: W trakcie pracy"
+    color: 07b340
+    description: Obecnie pracujemy nad tym.
 
-  - nazwa: "💾 Status: Oczekuje"
-    kolor: 38C968
-    opis: Oczekuje na coś innego, aby było gotowe.
+  - name: "💾 Status: Oczekuje"
+    color: 38C968
+    description: Oczekuje na coś innego, aby było gotowe.
 
-  - nazwa: "📦 Status: Przestarzałe"
-    kolor: 66b38a
-    opis: Brak aktywności przez jakiś czas.
+  - name: "📦 Status: Przestarzałe"
+    color: 66b38a
+    description: Brak aktywności przez jakiś czas.
 
-  - nazwa: "🍪 Duplikat"
-    kolor: EB862D
-    opis: Duplikat innego zgłoszenia.
+  - name: "🍪 Duplikat"
+    color: EB862D
+    description: Duplikat innego zgłoszenia.
 
-  - nazwa: "❌ Nieprawidłowe"
-    kolor: faef50
-    opis: To zgłoszenie wydaje się nieprawidłowe.
+  - name: "❌ Nieprawidłowe"
+    color: faef50
+    description: To zgłoszenie wydaje się nieprawidłowe.
 
-  - nazwa: "🔴 Priorytet: Wysoki +"
-    kolor: ff008c
-    opis: Zgłoszenie wysokiego priorytetu.
+  - name: "🔴 Priorytet: Wysoki +"
+    color: ff008c
+    description: Zgłoszenie wysokiego priorytetu.
 
-  - nazwa: "🟢 Priorytet: Niski -"
-    kolor: 690a34
-    opis: Zgłoszenie niskiego priorytetu.
+  - name: "🟢 Priorytet: Niski -"
+    color: 690a34
+    description: Zgłoszenie niskiego priorytetu.
 
-  - nazwa: "💾 Typ: Dokumentacja"
-    kolor: 2fbceb
-    opis: Problem/zmiana związana z dokumentacją.
+  - name: "💾 Typ: Dokumentacja"
+    color: 2fbceb
+    description: Problem/zmiana związana z dokumentacją.
 
-  - nazwa: "⚫ Nie zostanie naprawione"
-    kolor: C8D9E6
-    opis: Zgłoszony problem działa zgodnie z zamierzeniami.
+  - name: "⚫ Nie zostanie naprawione"
+    color: C8D9E6
+    description: Zgłoszony problem działa zgodnie z zamierzeniami.
