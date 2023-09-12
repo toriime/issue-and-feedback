@@ -17,7 +17,7 @@ body:
     attributes:
       label: Czy jest to powiązane z innym zgłoszeniem?
       description: Czy to usprawnienie jest powiązane z innym zgłoszeniem? Jeśli tak, to opisz.
-      value: "..."
+      placeholder: "..."
     validations:
       required: true
   - type: textarea
@@ -25,7 +25,7 @@ body:
     attributes:
       label: Opisz nową funkcję
       description: Opisz nową funkcję, którą chciałbyś zobaczyć.
-      value: "..."
+      placeholder: "..."
     validations:
       required: true
   - type: textarea
@@ -33,7 +33,7 @@ body:
     attributes:
       label: Opisz rozwiązanie, które chciałbyś zobaczyć
       description: Dokładnie opisz rozwiązanie, które chciałbyś zobaczyć.
-      value: "..."
+      placeholder: "..."
     validations:
       required: true
   - type: textarea
@@ -41,7 +41,7 @@ body:
     attributes:
       label: Opisz alternatywne rozwiązania
       description: Opisz alternatywne rozwiązania, które rozważałeś.
-      value: "..."
+      placeholder: "..."
     validations:
       required: true
   - type: textarea
@@ -49,6 +49,6 @@ body:
     attributes:
       label: Dodatkowe informacje
       description: Dodaj jakiekolwiek dodatkowe informacje na temat usprawnienia.
-      value: "..."
+      placeholder: "..."
     validations:
       required: true
