@@ -7,8 +7,8 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: |
-        Dziękujemy za zgłoszenie błędu! Aby pomóc nam w rozwiązaniu problemu, prosimy o wypełnienie poniższego formularza.
+      value: Dziękujemy za zgłoszenie błędu! Aby pomóc nam w rozwiązaniu problemu, prosimy o wypełnienie poniższego formularza.
+
   - type: checkboxes
     attributes:
       label: "Czy istnieje już dla tego usprawnienia zgłoszenie?"
@@ -54,6 +54,7 @@ body:
         - Inny
     validations:
       required: true
+
   - type: dropdown
     id: browser
     attributes:
