@@ -7,8 +7,8 @@ assignees:
 body:
   - type: checkboxes
     attributes:
-      label: "Czy istnieje już dla tego usprawnienia zgłoszenie?"
-      description: "Wyszukaj [tutaj](../issues?q=is%3Aissue) czy nie istnieje już zgłoszenie dla tego usprawnienia."
+      label: "Czy istnieje już dla tej funkcji zgłoszenie?"
+      description: "Wyszukaj [tutaj](../issues?q=is%3Aissue) czy nie istnieje już zgłoszenie dla tej funkcji."
       options:
         - label: "Przeszukałem istniejące zgłoszenia"
           required: true
@@ -16,7 +16,7 @@ body:
     id: related-to-issue
     attributes:
       label: Czy jest to powiązane z innym zgłoszeniem?
-      description: Czy to usprawnienie jest powiązane z innym zgłoszeniem? Jeśli tak, to opisz.
+      description: Czy ta funkcja jest powiązane z innym zgłoszeniem? Jeśli tak, to opisz.
       placeholder: "..."
     validations:
       required: true
@@ -48,7 +48,7 @@ body:
     id: additional-context
     attributes:
       label: Dodatkowe informacje
-      description: Dodaj jakiekolwiek dodatkowe informacje na temat usprawnienia.
+      description: Dodaj jakiekolwiek dodatkowe informacje na temat nowej funkcji.
       placeholder: "..."
     validations:
       required: true

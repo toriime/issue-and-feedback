@@ -11,8 +11,8 @@ body:
 
   - type: checkboxes
     attributes:
-      label: "Czy istnieje już dla tego usprawnienia zgłoszenie?"
-      description: "Wyszukaj [tutaj](../issues?q=is%3Aissue) czy nie istnieje już zgłoszenie dla tego usprawnienia."
+      label: "Czy istnieje już dla tego błędu zgłoszenie?"
+      description: "Wyszukaj [tutaj](../issues?q=is%3Aissue) czy nie istnieje już zgłoszenie dla tego błędu."
       options:
         - label: "Przeszukałem istniejące zgłoszenia"
           required: true
